@@ -1,5 +1,3 @@
-# TDD
-Implementar TDD e Teste unitários
 from multiplo import multiplo5, multiplo7
 
 while True:
