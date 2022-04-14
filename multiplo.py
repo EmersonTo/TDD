@@ -1,13 +1,19 @@
-def multiplo5(x):
-    resto = x % 5
-    if resto == 0:
-        return True
-    else:
-        return False
+"""
+Funções para veficar multiplos.
+"""
 
-def multiplo7(x):
-    resto = x % 7
-    if resto == 0:
-        return True
-    else:
-        return False
+
+def multiplo_5(numero):
+    """
+    Função verifca se um número é multiplo de 5.
+    """
+    resto = numero % 5
+    return bool(resto == 0)
+
+
+def multiplo_7(numero):
+    """
+     Função verifca se um número é multiplo de 7.
+    """
+    resto = numero % 7
+    return bool(resto == 0)

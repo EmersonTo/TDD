@@ -1,15 +1,24 @@
-import pytest
+"""
+importar modulos
+"""
+from multiplo import multiplo_5, multiplo_7
 
-from multiplo import multiplo5, multiplo7
 
 class TesteExercicio:
-    def setup(self):
-        pass
+    """
+    Classe para testar as funçoes de mutiplos 5 e 7
+    """
 
     def test_multiplo5(self):
-        resultado = multiplo5(5)
-        assert resultado == True
+        """
+        funçao teste multiplo5
+        """
+        resultado = multiplo_5(5)
+        assert bool(resultado)
 
     def test_multiplo7(self):
-        resultado = multiplo7(7)
-        assert resultado == True
+        """
+        funçao teste multiplo7
+        """
+        resultado = multiplo_7(7)
+        assert bool(resultado)
